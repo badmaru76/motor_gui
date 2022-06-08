@@ -70,8 +70,8 @@ def create_button_frame(container):
     ttk.Button(frame, text='Find Next',command=lambda: showwarning(
         title='Warning',
         message='This is a warning message.')).grid(column=0, row=0)
-    ttk.Button(frame, text='Replace').grid(column=0, row=1)
-    ttk.Button(frame, text='Replace All').grid(column=0, row=2)
+    ttk.Button(frame, text='text 1').grid(column=0, row=1)
+    ttk.Button(frame, text='text 2').grid(column=0, row=2)
     ttk.Button(frame, text='Cancel').grid(column=0, row=3)
 
     for widget in frame.winfo_children():
