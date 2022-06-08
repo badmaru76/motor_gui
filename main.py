@@ -72,7 +72,7 @@ def create_button_frame(container):
         message='This is a warning message.')).grid(column=0, row=0)
     ttk.Button(frame, text='text 1').grid(column=0, row=1)
     ttk.Button(frame, text='text 2').grid(column=0, row=2)
-    ttk.Button(frame, text='Cancel').grid(column=0, row=3)
+    ttk.Button(frame, text='Cancel 3').grid(column=0, row=3)
 
     for widget in frame.winfo_children():
         widget.grid(padx=0, pady=3)
