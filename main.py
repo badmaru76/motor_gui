@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 from tkinter.messagebox import showerror, showwarning, showinfo
 
-current_value = 0
+current_value = 0 #start
 
 
 def create_input_frame(container):
